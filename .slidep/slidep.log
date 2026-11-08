@@ -1,0 +1,2 @@
+=== boot pid=81403 ts=2026-10-28 15:27:54.986 cwd=/Users/ethanhuang/Documents/Ethan's Workspace/1. WIP/1.0 On Going/0-agentic projects/course-design argv=/Users/ethanhuang/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/@tencent/slidep/dist/index.js inspect "/Users/ethanhuang/Documents/Ethan's Workspace/1. WIP/1.0 On Going/DBC Incubator/Perform & Transform Award 0312.pptx" --out /tmp/slidep-inspect.IcHcya ===
+[2026-10-28 15:27:54.979] [INFO ] [pid=81403] [server-url] baseUrl=http://127.0.0.1:39099 source=env
