@@ -1,3 +1,6 @@
 .DS_Store
 **/.DS_Store
 tuvsud.2026.innovation&BM/
+# 大型二进制与登录凭证，不入库
+ai-works-hr/xhs-mcp-poc/
+*.genie

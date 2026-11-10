@@ -1,0 +1,572 @@
+[
+ {
+  "company": "贵州茅台酒股份有限公司",
+  "listing": {
+   "企业名称": "贵州茅台酒股份有限公司",
+   "上市日期": "2001-08-27",
+   "股票简称": "贵州茅台",
+   "股票代码": "600519",
+   "上市交易所": "上海证券交易所",
+   "上市板块": "主板",
+   "上市曾用名": "贵州茅台→G茅台",
+   "总市值": "1.80万亿",
+   "总股本": "12.5亿",
+   "预测市盈率": "20.93",
+   "流通值": "17988.67亿",
+   "流通股": "12.5亿",
+   "市净率": "6.63",
+   "EPS": "51.53",
+   "表决权差异": "否",
+   "是否注册制": "否"
+  },
+  "periods": [
+   {
+    "period": "2026年三季报",
+    "revenue": 1332.84,
+    "net_profit": 667.17,
+    "gross_margin": "89.58",
+    "net_margin": "50.94",
+    "revenue_yoy": "1.82",
+    "debt_ratio": "11.90"
+   },
+   {
+    "period": "2026年中报",
+    "revenue": 922.78,
+    "net_profit": 460.33,
+    "gross_margin": "89.56",
+    "net_margin": "50.75",
+    "revenue_yoy": "1.30",
+    "debt_ratio": "15.19"
+   },
+   {
+    "period": "2026年一季报",
+    "revenue": 547.03,
+    "net_profit": 281.54,
+    "gross_margin": "89.76",
+    "net_margin": "52.22",
+    "revenue_yoy": "6.34",
+    "debt_ratio": "12.12"
+   },
+   {
+    "period": "2025年年报",
+    "revenue": 1720.54,
+    "net_profit": 853.1,
+    "gross_margin": "91.18",
+    "net_margin": "50.53",
+    "revenue_yoy": "-1.20",
+    "debt_ratio": "16.42"
+   },
+   {
+    "period": "2025年三季报",
+    "revenue": 1309.04,
+    "net_profit": 668.99,
+    "gross_margin": "91.29",
+    "net_margin": "52.08",
+    "revenue_yoy": "6.32",
+    "debt_ratio": "12.81"
+   },
+   {
+    "period": "2025年中报",
+    "revenue": 910.94,
+    "net_profit": 469.87,
+    "gross_margin": "91.30",
+    "net_margin": "52.56",
+    "revenue_yoy": "9.16",
+    "debt_ratio": "14.75"
+   },
+   {
+    "period": "2025年一季报",
+    "revenue": 514.43,
+    "net_profit": 277.75,
+    "gross_margin": "91.97",
+    "net_margin": "54.89",
+    "revenue_yoy": "10.67",
+    "debt_ratio": "14.14"
+   },
+   {
+    "period": "2024年年报",
+    "revenue": 1741.44,
+    "net_profit": 893.35,
+    "gross_margin": "91.93",
+    "net_margin": "52.27",
+    "revenue_yoy": "15.66",
+    "debt_ratio": "19.04"
+   }
+  ]
+ },
+ {
+  "company": "宜宾五粮液股份有限公司",
+  "listing": {
+   "企业名称": "宜宾五粮液股份有限公司",
+   "上市日期": "1998-04-27",
+   "股票简称": "五粮液",
+   "股票代码": "000858",
+   "上市交易所": "深圳证券交易所",
+   "上市板块": "主板",
+   "上市曾用名": "五粮液→G五粮液",
+   "总市值": "2882.09亿",
+   "总股本": "38.82亿",
+   "预测市盈率": "22.26",
+   "流通值": "2882.02亿",
+   "流通股": "38.82亿",
+   "市净率": "2.43",
+   "EPS": "2.5043",
+   "表决权差异": "否",
+   "是否注册制": "否"
+  },
+  "periods": [
+   {
+    "period": "2026年三季报",
+    "revenue": 328.58,
+    "net_profit": 99.69,
+    "gross_margin": "79.89",
+    "net_margin": "30.34",
+    "revenue_yoy": "7.25",
+    "debt_ratio": "29.66"
+   },
+   {
+    "period": "2026年中报",
+    "revenue": 284.17,
+    "net_profit": 89.96,
+    "gross_margin": "80.29",
+    "net_margin": "31.66",
+    "revenue_yoy": "20.87",
+    "debt_ratio": "34.62"
+   },
+   {
+    "period": "2026年一季报",
+    "revenue": 228.38,
+    "net_profit": 83.24,
+    "gross_margin": "81.43",
+    "net_margin": "36.45",
+    "revenue_yoy": "33.67",
+    "debt_ratio": "34.31"
+   },
+   {
+    "period": "2025年年报",
+    "revenue": 405.29,
+    "net_profit": 93.17,
+    "gross_margin": "77.54",
+    "net_margin": "22.99",
+    "revenue_yoy": "-54.55",
+    "debt_ratio": "35.69"
+   },
+   {
+    "period": "2025年三季报",
+    "revenue": 306.38,
+    "net_profit": 67.87,
+    "gross_margin": "75.72",
+    "net_margin": "22.15",
+    "revenue_yoy": "-54.89",
+    "debt_ratio": "31.60"
+   },
+   {
+    "period": "2025年中报",
+    "revenue": 235.1,
+    "net_profit": 48.8,
+    "gross_margin": "77.87",
+    "net_margin": "20.76",
+    "revenue_yoy": "-53.58",
+    "debt_ratio": "36.51"
+   },
+   {
+    "period": "2025年一季报",
+    "revenue": 170.86,
+    "net_profit": 46.47,
+    "gross_margin": "79.07",
+    "net_margin": "27.20",
+    "revenue_yoy": "-50.95",
+    "debt_ratio": "30.33"
+   },
+   {
+    "period": "2024年年报",
+    "revenue": 891.75,
+    "net_profit": 331.93,
+    "gross_margin": "77.05",
+    "net_margin": "37.22",
+    "revenue_yoy": "7.09",
+    "debt_ratio": "27.55"
+   }
+  ]
+ },
+ {
+  "company": "泸州老窖股份有限公司",
+  "listing": {
+   "企业名称": "泸州老窖股份有限公司",
+   "上市日期": "1994-05-09",
+   "股票简称": "泸州老窖",
+   "股票代码": "000568",
+   "上市交易所": "深圳证券交易所",
+   "上市板块": "主板",
+   "上市曾用名": "川老窖A→泸州老窖→G老窖",
+   "总市值": "1177.37亿",
+   "总股本": "14.72亿",
+   "预测市盈率": "15.57",
+   "流通值": "1176.78亿",
+   "流通股": "14.71亿",
+   "市净率": "2.5",
+   "EPS": "3.85",
+   "表决权差异": "否",
+   "是否注册制": "否"
+  },
+  "periods": [
+   {
+    "period": "2026年三季报",
+    "revenue": 146.68,
+    "net_profit": 57.21,
+    "gross_margin": "83.64",
+    "net_margin": "39",
+    "revenue_yoy": "-36.58",
+    "debt_ratio": "20.44"
+   },
+   {
+    "period": "2026年中报",
+    "revenue": 104.72,
+    "net_profit": 43.77,
+    "gross_margin": "85.35",
+    "net_margin": "41.80",
+    "revenue_yoy": "-36.35",
+    "debt_ratio": "28.67"
+   },
+   {
+    "period": "2026年一季报",
+    "revenue": 80.25,
+    "net_profit": 37.3,
+    "gross_margin": "85.82",
+    "net_margin": "46.48",
+    "revenue_yoy": "-14.19",
+    "debt_ratio": "21.81"
+   },
+   {
+    "period": "2025年年报",
+    "revenue": 257.31,
+    "net_profit": 108.6,
+    "gross_margin": "86.62",
+    "net_margin": "42.21",
+    "revenue_yoy": "-17.52",
+    "debt_ratio": "23"
+   },
+   {
+    "period": "2025年三季报",
+    "revenue": 231.27,
+    "net_profit": 107.95,
+    "gross_margin": "87.11",
+    "net_margin": "46.67",
+    "revenue_yoy": "-4.84",
+    "debt_ratio": "23.93"
+   },
+   {
+    "period": "2025年中报",
+    "revenue": 164.54,
+    "net_profit": 76.84,
+    "gross_margin": "87.09",
+    "net_margin": "46.70",
+    "revenue_yoy": "-2.67",
+    "debt_ratio": "33.49"
+   },
+   {
+    "period": "2025年一季报",
+    "revenue": 93.52,
+    "net_profit": 46.12,
+    "gross_margin": "86.51",
+    "net_margin": "49.31",
+    "revenue_yoy": "1.78",
+    "debt_ratio": "24.67"
+   },
+   {
+    "period": "2024年年报",
+    "revenue": 311.96,
+    "net_profit": 134.98,
+    "gross_margin": "87.54",
+    "net_margin": "43.27",
+    "revenue_yoy": "3.19",
+    "debt_ratio": "30.48"
+   }
+  ]
+ },
+ {
+  "company": "山西杏花村汾酒厂股份有限公司",
+  "listing": {
+   "企业名称": "山西杏花村汾酒厂股份有限公司",
+   "上市日期": "1994-01-06",
+   "股票简称": "山西汾酒",
+   "股票代码": "600809",
+   "上市交易所": "上海证券交易所",
+   "上市板块": "主板",
+   "上市曾用名": "山西汾酒→G汾酒",
+   "总市值": "1579.24亿",
+   "总股本": "12.2亿",
+   "预测市盈率": "14.21",
+   "流通值": "1579.24亿",
+   "流通股": "12.2亿",
+   "市净率": "3.95",
+   "EPS": "6.83",
+   "表决权差异": "否",
+   "是否注册制": "否"
+  },
+  "periods": [
+   {
+    "period": "2026年三季报",
+    "revenue": 283.82,
+    "net_profit": 83.76,
+    "gross_margin": "74.01",
+    "net_margin": "29.51",
+    "revenue_yoy": "-13.80",
+    "debt_ratio": "30.96"
+   },
+   {
+    "period": "2026年中报",
+    "revenue": 210.44,
+    "net_profit": 64.69,
+    "gross_margin": "75.40",
+    "net_margin": "30.74",
+    "revenue_yoy": "-12.18",
+    "debt_ratio": "39.34"
+   },
+   {
+    "period": "2026年一季报",
+    "revenue": 149.23,
+    "net_profit": 54.04,
+    "gross_margin": "75.05",
+    "net_margin": "36.22",
+    "revenue_yoy": "-9.68",
+    "debt_ratio": "29.26"
+   },
+   {
+    "period": "2025年年报",
+    "revenue": 387.18,
+    "net_profit": 122.95,
+    "gross_margin": "74.85",
+    "net_margin": "31.76",
+    "revenue_yoy": "7.52",
+    "debt_ratio": "28.74"
+   },
+   {
+    "period": "2025年三季报",
+    "revenue": 329.24,
+    "net_profit": 114.5,
+    "gross_margin": "76.10",
+    "net_margin": "34.78",
+    "revenue_yoy": "5",
+    "debt_ratio": "28"
+   },
+   {
+    "period": "2025年中报",
+    "revenue": 239.64,
+    "net_profit": 85.23,
+    "gross_margin": "76.65",
+    "net_margin": "35.57",
+    "revenue_yoy": "5.35",
+    "debt_ratio": "35.80"
+   },
+   {
+    "period": "2025年一季报",
+    "revenue": 165.23,
+    "net_profit": 66.56,
+    "gross_margin": "78.80",
+    "net_margin": "40.28",
+    "revenue_yoy": "7.72",
+    "debt_ratio": "30.75"
+   },
+   {
+    "period": "2024年年报",
+    "revenue": 360.11,
+    "net_profit": 122.53,
+    "gross_margin": "76.20",
+    "net_margin": "34.03",
+    "revenue_yoy": "12.79",
+    "debt_ratio": "34.19"
+   }
+  ]
+ },
+ {
+  "company": "江苏洋河酒厂股份有限公司",
+  "listing": {
+   "企业名称": "江苏洋河酒厂股份有限公司",
+   "上市日期": "2009-11-06",
+   "股票简称": "洋河股份",
+   "股票代码": "002304",
+   "上市交易所": "深圳证券交易所",
+   "上市板块": "主板",
+   "上市曾用名": "",
+   "总市值": "561.00亿",
+   "总股本": "15.06亿",
+   "预测市盈率": "22.98",
+   "流通值": "560.99亿",
+   "流通股": "15.06亿",
+   "市净率": "1.21",
+   "EPS": "1.2153",
+   "表决权差异": "否",
+   "是否注册制": "否"
+  },
+  "periods": [
+   {
+    "period": "2026年三季报",
+    "revenue": 118.22,
+    "net_profit": 18.22,
+    "gross_margin": "71.42",
+    "net_margin": "15.41",
+    "revenue_yoy": "-34.65",
+    "debt_ratio": "16.35"
+   },
+   {
+    "period": "2026年中报",
+    "revenue": 105.4,
+    "net_profit": 25.95,
+    "gross_margin": "73.35",
+    "net_margin": "24.62",
+    "revenue_yoy": "-28.76",
+    "debt_ratio": "15.55"
+   },
+   {
+    "period": "2026年一季报",
+    "revenue": 81.86,
+    "net_profit": 24.44,
+    "gross_margin": "75.42",
+    "net_margin": "29.85",
+    "revenue_yoy": "-26.03",
+    "debt_ratio": "18.17"
+   },
+   {
+    "period": "2025年年报",
+    "revenue": 192.11,
+    "net_profit": 21.91,
+    "gross_margin": "71.60",
+    "net_margin": "11.40",
+    "revenue_yoy": "-33.47",
+    "debt_ratio": "19.97"
+   },
+   {
+    "period": "2025年三季报",
+    "revenue": 180.9,
+    "net_profit": 39.63,
+    "gross_margin": "71.10",
+    "net_margin": "21.90",
+    "revenue_yoy": "-34.26",
+    "debt_ratio": "18.22"
+   },
+   {
+    "period": "2025年中报",
+    "revenue": 147.96,
+    "net_profit": 43.35,
+    "gross_margin": "75.02",
+    "net_margin": "29.30",
+    "revenue_yoy": "-35.32",
+    "debt_ratio": "19.97"
+   },
+   {
+    "period": "2025年一季报",
+    "revenue": 110.66,
+    "net_profit": 36.33,
+    "gross_margin": "75.59",
+    "net_margin": "32.83",
+    "revenue_yoy": "-31.92",
+    "debt_ratio": "19.20"
+   },
+   {
+    "period": "2024年年报",
+    "revenue": 288.76,
+    "net_profit": 66.66,
+    "gross_margin": "73.16",
+    "net_margin": "23.09",
+    "revenue_yoy": "-12.83",
+    "debt_ratio": "23.24"
+   }
+  ]
+ },
+ {
+  "company": "安徽古井贡酒股份有限公司",
+  "listing": {
+   "企业名称": "安徽古井贡酒股份有限公司",
+   "上市日期": "1996-09-27",
+   "股票简称": "古井贡酒",
+   "股票代码": "000596",
+   "上市交易所": "深圳证券交易所",
+   "上市板块": "主板",
+   "上市曾用名": "古井贡A→*ST古井A→ST古井A→GST古井A→ST古井A",
+   "总市值": "569.73亿",
+   "总股本": "5.29亿",
+   "预测市盈率": "18.91",
+   "流通值": "440.39亿",
+   "流通股": "5.29亿",
+   "市净率": "2.28",
+   "EPS": "4.28",
+   "表决权差异": "否",
+   "是否注册制": "否"
+  },
+  "periods": [
+   {
+    "period": "2026年三季报",
+    "revenue": 127.7,
+    "net_profit": 23.0,
+    "gross_margin": "79.81",
+    "net_margin": "18.01",
+    "revenue_yoy": "-22.25",
+    "debt_ratio": "27.87"
+   },
+   {
+    "period": "2026年中报",
+    "revenue": 101.31,
+    "net_profit": 22.11,
+    "gross_margin": "80.33",
+    "net_margin": "21.82",
+    "revenue_yoy": "-27.01",
+    "debt_ratio": "32.38"
+   },
+   {
+    "period": "2026年一季报",
+    "revenue": 74.46,
+    "net_profit": 16.57,
+    "gross_margin": "77.85",
+    "net_margin": "22.26",
+    "revenue_yoy": "-18.59",
+    "debt_ratio": "32.97"
+   },
+   {
+    "period": "2025年年报",
+    "revenue": 188.32,
+    "net_profit": 36.41,
+    "gross_margin": "79.26",
+    "net_margin": "19.33",
+    "revenue_yoy": "-20.13",
+    "debt_ratio": "31.66"
+   },
+   {
+    "period": "2025年三季报",
+    "revenue": 164.25,
+    "net_profit": 40.83,
+    "gross_margin": "79.87",
+    "net_margin": "24.86",
+    "revenue_yoy": "-13.87",
+    "debt_ratio": "30.55"
+   },
+   {
+    "period": "2025年中报",
+    "revenue": 138.8,
+    "net_profit": 37.78,
+    "gross_margin": "79.87",
+    "net_margin": "27.22",
+    "revenue_yoy": "0.54",
+    "debt_ratio": "31.55"
+   },
+   {
+    "period": "2025年一季报",
+    "revenue": 91.46,
+    "net_profit": 23.89,
+    "gross_margin": "79.68",
+    "net_margin": "26.12",
+    "revenue_yoy": "10.38",
+    "debt_ratio": "35.87"
+   },
+   {
+    "period": "2024年年报",
+    "revenue": 235.78,
+    "net_profit": 57.07,
+    "gross_margin": "79.90",
+    "net_margin": "24.20",
+    "revenue_yoy": "16.41",
+    "debt_ratio": "36.59"
+   }
+  ]
+ }
+]

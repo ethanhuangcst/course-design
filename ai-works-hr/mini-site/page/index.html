@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI that WOKRS!</title>
+  <link rel="stylesheet" href="styles/guide.css?v=case-spacing-3">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到指南正文</a>
+  <div class="guide-shell">
+    <main class="guide-main" id="content">
+      <article class="guide">
+        <header class="hero">
+          <h1 class="sr-heading">AI that WOKRS!</h1>
+          <img class="title-image" src="images/title.png" alt="AI that WOKRS!" width="534" height="176">
+          <p class="subtitle">Build AI agents for business!</p>
+        </header>
+
+        <nav class="links" aria-label="Workshop 链接">
+          <p class="resource-row">
+            <a class="resource-link" href="https://www.workbuddy.cn/" target="_blank" rel="noopener noreferrer">下载 WorkBuddy</a>
+          </p>
+        </nav>
+
+        <section class="setup" aria-labelledby="setup-title">
+          <h2 class="setup-highlight" id="setup-title">在 WorkBuddy 中安装需要的技能：</h2>
+          <div class="setup-pill">
+            <span class="setup-pill-text">复制提示词并粘贴到 WorkBuddy 聊天窗口</span>
+            <span class="setup-pill-divider" aria-hidden="true"></span>
+            <button class="setup-pill-action" id="copy-button" type="button" aria-describedby="copy-status">
+              <img class="setup-pill-icon" src="images/workbuddy.png" alt="" width="18" height="18">
+              <span id="copy-button-label">点击复制</span>
+            </button>
+          </div>
+          <p class="caveat">自动安装有问题？<a href="skills.zip?sharecode=GVVF43H4ID" download="skills.zip">下载技能包</a>后手动安装</p>
+          <p class="resource-row">
+            <a class="resource-link" href="https://hedgedoc.pro/4GvM0uihT2-1sbRFag2Y_w?edit" target="_blank" rel="noopener noreferrer">今天 Workshop 的提示词共享文档</a>
+          </p>
+          <p class="copy-status" id="copy-status" aria-live="polite"></p>
+          <noscript>
+            <p class="caveat">页面脚本未运行，无法自动复制。提示词：获取 https://ai-works-workshop.app.workbuddy.host/setup/install.md?sharecode=GVVF43H4ID 中的训练营技能安装说明，按照说明下载并校验四个技能包，确认 WorkBuddy 技能目录后新增安装；遇到同名冲突停止，不覆盖已有文件。</p>
+          </noscript>
+        </section>
+
+        <section class="case" aria-labelledby="case-title">
+          <div class="case-block">
+            <div class="case-bar">
+              <h2 class="case-title" id="case-title">练习案例：云溪酒业</h2>
+              <button class="case-copy" type="button">复制</button>
+            </div>
+            <div class="case-text"># 背景
+云溪酒业（区域白酒厂商，主攻大众价位带，年营收约8亿）市场部需要每周掌握头部白酒企业的经营分化与行业动向，作为本品定价与渠道策略参考。现要求一个智能体在每周一09:00生成竞品对标周报并发送至指定邮箱：内容为贵州茅台、五粮液、泸州老窖、山西汾酒、洋河股份、古井贡酒六家的最近八个已披露报告期财务（营收、同比、净利、毛利率）、八个完整自然季度股价趋势，以及上周值得注意的行业动态与对本品的启示。
+# 按照以下说明构建智能体 mkt-insights
+步骤一：数据采集
+- 财务与上市信息：qcc-company（企业信息MCP），get_financial_data 与 get_listing_info；searchKey 必须用完整注册名（如"山西杏花村汾酒厂股份有限公司"避免匹配失败）；
+- 股价：公开行情接口取日K线，聚合成季末收盘价，前复权口径；取八个完整自然季度，首季涨跌以前一季末为基准；
+- 行业动态：公开新闻检索，仅取带来源与日期的报道；
+- 口径：财务取最近八个已披露报告期（A股按一季报/半年报/三季报/年报节奏披露，非自然季度）；金额保留原币原单位；当期未披露的留缺，不得用预测值填充；六家均为A股上市，无数据缺口，如遇退市、停牌、更名按当期公告更新竞对名单；
+- 报道、机构预测、本品推断三类内容分开标注，不得混写。
+步骤二：报表生成
+- 所有统计数字从最终底稿计算；
+- 周报固定七节：竞争格局（市值/PE）、八季度营收趋势、毛利率结构、八季度股价趋势（累计涨跌与个股-行业背离）、行业动态（带来源）、对本品的启示（标注为推断）、口径与合规声明；
+- 产出：Excel 底表（指标+趋势+明细）、邮件正文版（样式内联，兼容各邮箱客户端与手机端）。
+步骤三：邮件发送
+- 正文即完整周报，附件仅 Excel 底表；
+- 发送到指定邮箱：abc@xyz.com
+- 发送前不须确认，直接发送。
+步骤四：失败处理
+- 停发条件：数据源不可达／任一竞对财务连续两期取数失败／行情接口连续失败／报表生成报错／收件地址校验失败；当周停发，不自动重试；
+- 恢复后补发，邮件中注明补发。</div>
+          </div>
+          <div class="case-block">
+            <div class="case-bar">
+              <h2 class="case-title">练习案例：禾一猫粮</h2>
+              <button class="case-copy" type="button">复制</button>
+            </div>
+            <div class="case-text"># 背景
+杭州禾一宠物食品有限公司（品牌"禾一"，烘焙猫粮）市场部需要每日掌握小红书竞品内容动态，作为内容策略与投放参考。现要求一个智能体在每个工作日早上生成竞品日报并发送至指定邮箱：内容为关键词"烘焙猫粮"与"烘焙粮"下互动量最高的10篇视频笔记（含点赞、收藏、评论与排名），另附2–3条当日值得注意的动向（如竞品账号进场、某类内容起量）。
+# 按照以下说明构建智能体 rednote-daily-insights
+步骤一：数据采集
+- 数据源：xiaohongshu-mcp（免费开源工具），本账号登录态，只读访问；
+- 依次搜索"烘焙猫粮""烘焙粮"，按笔记去重合并，筛出视频，按互动量（赞+藏+评+分享）取前10；不足10篇按实际数量发出；
+- 热门口径＝固定关键词搜索排序（平台无热门榜）；关键词与取数时间固定，保证跨日可比；
+- 阅读量、完播率平台不公开，无法获得，因此不采集；
+- 登录态数周过期一次，需人工重新扫码；同账号不得在其他网页端登录；
+- 每日1次、每次10篇以内；禁止批量高频采集。
+步骤二：报表生成
+- 所有统计数字从最终底稿计算；
+- 产出：Excel 底表（指标+排行+明细）、邮件正文版（样式内联，兼容各邮箱客户端与手机端）。
+步骤三：邮件发送
+- 正文即完整日报，附件仅 Excel 底表；
+- 发送到指定邮箱：abc@xyz.com
+- 发送前不须确认，直接发送。
+步骤四：失败处理
+- 停发条件：数据源不可达／登录失效／搜索连续失败／报表生成报错／收件地址校验失败；当日停发，不自动重试；
+- 恢复后补发，邮件中注明补发。</div>
+          </div>
+        </section>
+
+        <section class="qr-block" aria-label="微信">
+          <img class="qr-image" src="images/wechat.png" alt="Ethan 的微信二维码" width="400" height="400">
+          <p class="qr-caption">扫码加我微信</p>
+        </section>
+
+        <footer class="site-footer">
+          <p>Copyright @ethanhuang</p>
+        </footer>
+      </article>
+    </main>
+  </div>
+  <script src="guide.js"></script>
+</body>
+</html>

@@ -1,0 +1,438 @@
+/* Workshop guide. Visual rules follow the sdd.works guide shell and setup pill.
+ * Source: app/web/styles/portal.css (.guide-shell, .setup-pill, .setup-highlight, links, footer).
+ */
+@import "./tokens.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+  overflow-x: clip;
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-cn);
+  font-weight: 400;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link:focus {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 40;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0.35rem 0.6rem;
+  clip: auto;
+  background: var(--bg-elevated);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.guide-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.guide-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 2rem;
+  overflow-x: clip;
+}
+
+.guide {
+  width: 100%;
+  max-width: var(--guide-max);
+  min-width: 0;
+  margin: 0 auto;
+  animation: 0.7s both guide-rise;
+}
+
+@keyframes guide-rise {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sr-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.hero {
+  margin: 0 0 3.5rem;
+  text-align: center;
+}
+
+.title-image {
+  display: block;
+  width: min(100%, 26rem);
+  height: auto;
+  margin: 0 auto;
+}
+
+.subtitle {
+  margin-top: 1.5rem;
+  color: var(--mute);
+  font-family: var(--font-ui);
+  font-size: clamp(1.15rem, 2.4vw, 1.35rem);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 0 3.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.resource-row {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.resource-link {
+  font-family: var(--font-ui);
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ink);
+  border-bottom: 1.5px solid var(--line-strong);
+  padding-bottom: 0.15rem;
+}
+
+.resource-link:hover {
+  border-bottom-color: var(--ink);
+}
+
+.resource-link:focus-visible,
+.setup-pill-action:focus-visible,
+.manual-copy:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.setup {
+  margin: 0 0 3.5rem;
+}
+
+.setup-highlight {
+  margin: 0 0 1.15rem;
+  font-family: var(--font-ui);
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.setup-pill {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.45rem 0.45rem 0.45rem 1.35rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  color: var(--ink);
+  transition: border-color 0.16s ease;
+}
+
+.setup-pill:hover,
+.setup-pill:focus-within {
+  border-color: var(--ink);
+}
+
+.setup-pill-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.35rem 0.95rem 0.35rem 0;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.setup-pill-divider {
+  width: 1px;
+  align-self: stretch;
+  min-height: 1.35rem;
+  margin: 0.35rem 0;
+  background: var(--line-strong);
+}
+
+.setup-pill-action {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0.45rem 0.85rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.setup-pill-action:hover {
+  background: var(--fill);
+}
+
+.setup-pill-icon {
+  display: block;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.copy-status,
+.caveat {
+  color: var(--mute);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.setup-pill + .caveat {
+  margin-top: 1.5rem;
+}
+
+.copy-status {
+  min-height: 1.5em;
+  margin-top: 0.75rem;
+}
+
+.copy-status:empty {
+  display: none;
+}
+
+.manual-copy {
+  display: block;
+  width: 100%;
+  min-height: 5.5rem;
+  margin: 0.85rem 0 0;
+  padding: 0.8rem 1rem;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 0;
+  background: var(--fill);
+  color: var(--ink);
+  font-family: var(--font-cn);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  resize: vertical;
+}
+
+.case {
+  margin: 0 0 3.5rem;
+}
+
+.case-block {
+  border: 1.5px solid var(--line-strong);
+  background: var(--bg-elevated);
+}
+
+.case-block + .case-block {
+  margin-top: 2.5rem;
+}
+
+.case-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.case-title {
+  margin: 0;
+  padding: 0.55rem 1.05rem;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.case-copy {
+  appearance: none;
+  margin: 0;
+  padding: 0.55rem 1.05rem;
+  border: 0;
+  border-left: 1px solid var(--line);
+  background: transparent;
+  color: var(--mute);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.case-copy:hover {
+  color: var(--ink);
+}
+
+.case-copy:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: -2px;
+}
+
+.case-text {
+  margin: 0;
+  padding: 1rem 1.15rem 1.15rem;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.qr-block {
+  margin: 0;
+  text-align: center;
+}
+
+.qr-image {
+  display: block;
+  width: min(180px, 70vw);
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.qr-caption {
+  margin-top: 0.75rem;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.site-footer {
+  margin-top: 2.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--mute);
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .guide-main {
+    padding: 2rem 1.15rem 1.5rem;
+  }
+
+  .hero {
+    margin-bottom: 2.25rem;
+  }
+
+  .links,
+  .setup,
+  .case {
+    margin-bottom: 2.25rem;
+  }
+
+  .setup-pill {
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+
+  .setup-pill-text {
+    white-space: normal;
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guide {
+    animation: none;
+  }
+
+  .setup-pill {
+    transition: none;
+  }
+
+  * {
+    scroll-behavior: auto;
+  }
+}

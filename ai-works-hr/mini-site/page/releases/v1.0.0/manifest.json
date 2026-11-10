@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "skills": [
+    "doc-translator",
+    "ethan-agent-builder",
+    "improve-prompt",
+    "research-ops"
+  ],
+  "files": [
+    {
+      "path": "skills/doc-translator/SKILL.md",
+      "size": 13638,
+      "sha256": "b4fffe44b41201ae9cd72aafa511e2b664a199efbc5e58906ded26f99f8e8898"
+    },
+    {
+      "path": "skills/doc-translator/evals/evals.json",
+      "size": 3072,
+      "sha256": "a2a9164068ded256bd88c595bea011ac866129c30033a708057620135f8f43e8"
+    },
+    {
+      "path": "skills/ethan-agent-builder/SKILL.md",
+      "size": 5858,
+      "sha256": "4b37d48b204aebc0a9757f9dd6188935cb9fb64ed77e72cbd45ed3c5d2818685"
+    },
+    {
+      "path": "skills/ethan-agent-builder/agent-design-patterns.md",
+      "size": 62848,
+      "sha256": "2f40420352e5163aa71a745b4484dff1639ee3ff08f25dfa6cf1cb4bd569cfde"
+    },
+    {
+      "path": "skills/improve-prompt/SKILL.md",
+      "size": 3845,
+      "sha256": "6a85858e21d0c464604ee51743fad3fa5cd93b9233c8990eee820aca83bb177e"
+    },
+    {
+      "path": "skills/improve-prompt/examples.md",
+      "size": 2920,
+      "sha256": "e3182d73d1a4ac229dacb81e5ee3b13e6fd65b89c6a60ac8d2a43af7ee707a26"
+    },
+    {
+      "path": "skills/research-ops/SKILL.md",
+      "size": 3614,
+      "sha256": "14554d285db2f0c1b32590a1fc0fc42f21bcb453f6653bd5fcd1da0b8b3cd711"
+    }
+  ],
+  "archive": {
+    "path": "workshop-skills.zip",
+    "sha256": "271478ce9f1e777751e3371d21797e2220fc1f2109b2f67d6e8a33c6456bafd1",
+    "size": 41069
+  }
+}

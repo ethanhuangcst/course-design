@@ -1,0 +1,26 @@
+{
+  "skill_name": "doc-translator",
+  "evals": [
+    {
+      "id": 1,
+      "name": "markdown-product-release-notes",
+      "prompt": "把下面这段产品发布说明翻译成简体中文、香港繁体、台湾繁体和英文四种语言：\n\n## v2.4.0 Release Notes\n\n### New Features\n- Added dark mode toggle in settings. Users can now switch between light and dark themes.\n- Improved search performance. Large datasets now load 40% faster.\n\n### Bug Fixes\n- Fixed an issue where the app would crash when opening corrupted files.\n- Resolved a syncing problem that caused duplicate entries on some devices.\n\n### Known Issues\n- Some older Android devices may experience increased battery usage during video playback. We are investigating.",
+      "expected_output": "Four labeled sections with translations. zh-HK uses 軟件/網絡-style vocabulary, zh-TW uses 軟體/網路-style, zh-CN uses simplified characters, en uses plain international English. Markdown structure preserved exactly.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "casual-user-email-partial-translation",
+      "prompt": "帮我把我写的这封给客户的通知邮件翻成台灣繁體就好，不用其他语言：\n\nSubject: 关于系统维护的通知\n\n尊敬的客户：\n\n我们将于本周六凌晨2点至4点进行系统维护。维护期间，系统将暂停服务，您可能无法登录或使用相关功能。\n\n维护完成后，服务将自动恢复。如有疑问，请联系我们的客服团队。\n\n感谢您的理解与支持。\n\n此致\n敬礼",
+      "expected_output": "Only zh-TW translation, no other variants. Traditional characters with Taiwan vocabulary (e.g. 資訊 not 資訊, 系統, 服務). Formal but plain tone preserved. No simplified characters leaked in.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "technical-doc-with-code-blocks-and-tables",
+      "prompt": "Translate the following API documentation into Simplified Chinese and English only (skip HK and TW):\n\n## API Reference\n\n### `getUserProfile(userId)`\n\nFetches the user profile for a given user ID.\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| userId | string | Yes | The unique identifier of the user |\n\n**Returns:** A `UserProfile` object containing the user's name, email, and account status.\n\n**Example:**\n```javascript\nconst profile = await getUserProfile('usr_12345');\nconsole.log(profile.name);\n```\n\n**Error handling:** If the user ID does not exist, the function throws a `UserNotFoundError`. If the user account has been deactivated, it throws `AccountInactiveError`.\n\n> Note: This function requires authentication. Include a valid API key in the request header.",
+      "expected_output": "Only zh-CN and en sections. Code blocks and function names untranslated. Table structure preserved. Technical terms like API key, function names stay in English. zh-CN uses mainland vocabulary (数据 not 資料). Both translations preserve the blockquote note.",
+      "files": []
+    }
+  ]
+}

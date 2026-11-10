@@ -1,0 +1,21 @@
+/* Values match workspace.frame.sdd.works/app/web/styles/tokens.css.
+ * Google fonts are not loaded. Participants use networks in China.
+ * Installed faces are used when present. Otherwise the system CJK stack is used.
+ */
+:root {
+  --bg: #fafafa;
+  --bg-elevated: #fff;
+  --ink: #0a0a0a;
+  --ink-2: #1f1f1f;
+  --mute: #525252;
+  --mute-soft: #6b6b6b;
+  --line: #e0e0e0;
+  --line-strong: #bdbdbd;
+  --fill: #f0f0f0;
+  --radius: 0;
+  --font-ui: "Outfit", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  --font-hero: "Antonio", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Outfit", system-ui, sans-serif;
+  --font-cn: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --guide-max: 40rem;
+}
